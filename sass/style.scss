@@ -1,0 +1,43 @@
+//@import "compass/reset";
+@import "compass/css3";
+@import "_colors.scss";
+
+/*BOOTSTRAP*/
+@import "../js/bower_components/bootstrap/scss/_functions.scss";
+@import "../js/bower_components/bootstrap/scss/_variables.scss";
+@import '../js/bower_components/bootstrap/scss/_mixins.scss';
+@import "../js/bower_components/bootstrap/scss/grid";
+
+/*FONTS*/
+@import "_fonts.scss";
+
+/*SLICK SLIDER*/
+@import "../js/bower_components/slick-carousel/slick/slick.scss";
+
+/*ANIMATION*/
+@import "_anim.scss";
+
+/*BASE*/
+@import "_base.scss";
+
+/*ICONS FONT*/
+@import "_icons.scss";
+
+/*HEADER*/
+@import "_header.scss";
+
+/*SECTION*/
+@import "_section.scss";
+
+/*FOOTER*/
+@import "_footer.scss";
+
+/*MEDIA*/
+@import "_media-768.scss";
+@import "_media-992.scss";
+@import "_media-1200.scss";
+@import "_media-1300.scss";
+
+@import "_home.scss";
+@import "_mediabox.scss";
+@import "_mediabox-media.scss";

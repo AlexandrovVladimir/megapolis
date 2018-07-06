@@ -1,0 +1,352 @@
+/*main icon*/
+.main-icon {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: none;
+    font-variant: normal;
+    font-family: $icons !important;
+    font-weight: normal;
+    line-height: 1;
+    font-style: normal;
+    speak: none;
+
+    &__site-logo {
+        &:before {
+            content: "\e912";
+        }
+    }
+
+    &__mouse {
+        &:before {
+            content: "\e904";
+        }
+    }
+
+    &__social-facebook {
+        &:before {
+            content: "\e916";
+        }
+    }
+
+    &__social-insta {
+        &:before {
+            content: "\e90b";
+        }
+    }
+
+    &__social-youtube {
+        &:before {
+            content: "\e915";
+        }
+    }
+
+    &__social-telegram {
+        &:before {
+            content: "\e909";
+        }
+    }
+
+    &__social-email {
+        &:before {
+            content: "\e90a";
+        }
+    }
+
+    &__social-whats {
+        &:before {
+            content: "\e913";
+        }
+    }
+
+    &__social-phone {
+        &:before {
+            content: "\e914";
+        }
+    }
+
+    &__back {
+        &:before {
+            content: "\e911";
+        }
+    }
+
+    &__project-logo-yum {
+        &:before {
+            content: "\e90c";
+        }
+    }
+
+    &__project-logo-hr {
+        &:before {
+            content: "\e90d";
+        }
+    }
+
+    &__project-logo-g {
+        &:before {
+            content: "\e90e";
+        }
+    }
+
+    &__project-logo-bee {
+        &:before {
+            content: "\e90f";
+        }
+    }
+
+    &__project-logo-akmp {
+        &:before {
+            content: "\e910";
+        }
+    }
+
+    &__status-voice {
+        &:before {
+            content: "\e901";
+        }
+    }
+
+    &__status-video {
+        &:before {
+            content: "\e902";
+        }
+    }
+
+    &__ok {
+        &:before {
+            content: "\e906";
+        }
+    }
+
+    &__detail-email {
+        &:before {
+            content: "\e900";
+        }
+    }
+
+    &__detail-phone {
+        &:before {
+            content: "\e903";
+        }
+    }
+
+    &__detail-map {
+        &:before {
+            content: "\e905";
+        }
+    }
+
+    &__detail-doc {
+        &:before {
+            content: "\e907";
+        }
+    }
+
+    &__detail-clip {
+        &:before {
+            content: "\e908";
+        }
+    }
+
+    &__mediabox-prev {
+        text-align: center;
+        //&:before {
+        //    content: '\e937';
+        //}
+      img {
+        margin: 0 auto;
+      }
+    }
+
+    &__man-insta {
+        &:before {
+            content: '\e936';
+        }
+    }
+
+    &__man-web {
+        &:before {
+            content: '\e935';
+        }
+    }
+
+    &__man-tv {
+        &:before {
+            content: '\e934';
+        }
+    }
+
+    &__man-call {
+        &:before {
+            content: '\e933';
+        }
+    }
+
+    &__man-news {
+        &:before {
+            content: '\e932';
+        }
+    }
+
+    &__man-radio {
+        &:before {
+            content: '\e931';
+        }
+    }
+
+    &__man-social {
+        &:before {
+            content: '\e930';
+        }
+    }
+
+    &__scheme-channels {
+        &:before {
+            content: '\e92f';
+        }
+    }
+
+    &__scheme-stat {
+        &:before {
+            content: '\e92e';
+        }
+    }
+
+    &__scheme-command {
+        &:before {
+            content: '\e92d';
+        }
+    }
+
+    &__scheme-talk {
+        &:before {
+            content: '\e92c';
+        }
+    }
+
+    &__scheme-question {
+        &:before {
+            content: '\e92b';
+        }
+    }
+
+    &__scheme-time {
+        &:before {
+            content: '\e92a';
+        }
+    }
+
+    &__features-auditory {
+        //&:before {
+        //    content: '\e929';
+        //}
+    }
+
+    &__features-update {
+        &:before {
+            content: '\e928';
+        }
+    }
+
+    &__features-audio {
+        &:before {
+            content: '\e927';
+        }
+    }
+
+    &__features-stream {
+        &:before {
+            content: '\e926';
+        }
+    }
+
+    &__features-programs {
+        &:before {
+            content: '\e925';
+        }
+    }
+
+    &__features-comunication {
+        &:before {
+            content: '\e924';
+        }
+    }
+
+    &__features-news {
+        &:before {
+            content: '\e923';
+        }
+    }
+
+    &__features-notify {
+        &:before {
+            content: '\e922';
+        }
+    }
+
+    &__features-feedback {
+        &:before {
+            content: '\e921';
+        }
+    }
+
+    &__features-podcasts {
+        &:before {
+            content: '\e920';
+        }
+    }
+
+    &__steps-news {
+        &:before {
+            content: '\e91f';
+        }
+    }
+
+    &__steps-click {
+        &:before {
+            content: '\e91e';
+        }
+    }
+
+    &__steps-feed {
+        &:before {
+            content: '\e91d';
+        }
+    }
+
+    &__steps-mobile {
+        &:before {
+            content: '\e91c';
+        }
+    }
+
+    &__steps-tv {
+        &:before {
+            content: '\e91b';
+        }
+    }
+
+    &__steps-radio {
+        &:before {
+            content: '\e91a';
+        }
+    }
+
+    &__feedback-icon {
+        &:before {
+            content: '\e919';
+        }
+    }
+
+    &__feedback-click {
+        &:before {
+            content: '\e918';
+        }
+    }
+
+    &__feedback-scroll {
+        &:before {
+            content: '\e917';
+        }
+    }
+}

@@ -1,0 +1,32 @@
+/*media queries: min-width: 768px*/
+@include media-breakpoint-up(md) {
+    /*main-header*/
+    .main-header {
+        .container {
+            width: 100%;
+        }
+    }
+
+    /*main details*/
+    .main-details {
+        &-elem {
+            margin-right: auto;
+            margin-left: auto;
+            width: 300px;
+
+            &-icon {
+                vertical-align: middle;
+                margin-bottom: 0;
+                margin-right: 10px;
+                margin-left: 0;
+                display: inline-block;
+            }
+
+            &-cont {
+                vertical-align: middle;
+                text-align: left;
+                display: inline-block;
+            }
+        }
+    }
+}

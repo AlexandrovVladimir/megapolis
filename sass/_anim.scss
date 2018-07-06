@@ -1,0 +1,25 @@
+@include keyframes(scrollbtn){
+    0% {
+        top: 0;
+    }
+
+    20% {
+        top: -6px;
+    }
+
+    40% {
+        top: 14px;
+    }
+
+    60% {
+        top: -2px;
+    }
+
+    80% {
+        top: 10px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
