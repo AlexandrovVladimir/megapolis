@@ -7,8 +7,20 @@
         line-height: 1.429 !important;
         width: 232px !important;
     }
+    .features-block {
+        .features-elem-icon {
+            background: #ffffff;
+        }
+    }
+    .mediabox-portfolio-list {
+        position: relative;
+        height: 550px;
+        .features-elem-icon {
+            margin: auto;
+        }
+    }
     .features-elem-icon {
-        background: #ffffff;
+        //background: #ffffff;
         border: 3px solid #534884;
     }
     .mediabox-block {
@@ -41,8 +53,10 @@
 
         &__features-top {
             .block-with-lines-cont {
-                padding-bottom: 60px;
-                padding-top: 121px;
+                //padding-bottom: 60px;
+                //padding-top: 121px;
+                padding-top: 200px;
+                padding-bottom: 200px;
             }
 
             .mediabox-block-head {
@@ -80,6 +94,42 @@
             .block-with-lines-cont {
                 padding-bottom: 28px;
                 padding-top: 100px;
+            }
+        }
+
+        &__bring {
+            background: #5d528e;
+            &-title {
+                color: #fff;
+                font-size: 24px;
+                font-family: "Open Sans Bold", sans-serif;
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1;
+                text-align: center;
+                padding-bottom: 150px;
+            }
+            .block-with-lines-cont {
+                padding-bottom: 180px;
+                padding-top: 60px;
+            }
+        }
+
+        &__listen {
+            background: #5d528e;
+            &-title {
+                color: #fff;
+                font-size: 24px;
+                font-family: "Open Sans Bold", sans-serif;
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1;
+                text-align: center;
+                padding-bottom: 150px;
+            }
+            .block-with-lines-cont {
+                padding-bottom: 180px;
+                padding-top: 60px;
             }
         }
 
@@ -809,7 +859,323 @@
                 }
             }
         }
+        //AV portfolio section
+        &-list {
+            li {
+                display: inline-block;
+                position: absolute;
+                .features-elem {
+                    &_icon {
+                        background: $colors_violet_1;
+                    }
+                    &__text {
+                        font-size: 14px;
+                        color: rgb(93, 82, 142);
+                        line-height: 1.429;
+                        &-normal {
+                            display: inline;
+                            font-family: "Open Sans Regular", sans-serif;
+                            text-align: center;
+                        }
+                        &-weight {
+                            display: inline;
+                            font-family: "Open Sans Bold", sans-serif;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+                    }
+                }
+                &:nth-child(1) {
+                    left: -58px;
+                    top: 0;
+                    .features-elem {
+                        &__text {
+                            max-width: 55%;
+                            margin: 15px auto 0;
+                        }
+                        &-icon {
+                            &:after {
+                                background: url(../images/1.png) no-repeat center / contain;
+                                border-radius: 0;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(2) {
+                    left: 18.3%;
+                    top: 10%;
+                    .features-elem {
+                        &__text {
+                            max-width: 30%;
+                            margin: 15px auto 0;
+                        }
+                        &-icon {
+                            &:after {
+                                background: url(../images/2.png) no-repeat center / contain;
+                                border-radius: 0;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(3) {
+                    left: 51%;
+                    top: 0;
+                    .features-elem {
+                        &__text {
+                            max-width: 40%;
+                            margin: 15px auto 0;
+                        }
+                        &-icon {
+                            &:after {
+                                background: url(../images/3.png) no-repeat center / contain;
+                                border-radius: 0;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(4) {
+                    left: 3.7%;
+                    top: 45%;
+                    .features-elem {
+                        &__text {
+                            max-width: 50%;
+                            margin: 15px auto 0;
+                        }
+                        &-icon {
+                            &:after {
+                                background: url(../images/4.png) no-repeat center / contain;
+                                border-radius: 0;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(5) {
+                    left: 39%;
+                    top: 60%;
+                    .features-elem {
+                        &__text {
+                            max-width: 50%;
+                            margin: 15px auto 0;
+                        }
+                        &-icon {
+                            &:after {
+                                background: url(../images/5.png) no-repeat center / contain;
+                                border-radius: 0;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(6) {
+                    left: 83%;
+                    top: 45%;
+                    width: 165px;
+                    .features-elem {
+                        &__text {
+                            max-width: 100%;
+                            margin: 15px auto 0;
+                        }
+                        &-icon {
+                            &:after {
+                                background: url(../images/6.png) no-repeat center / contain;
+                                border-radius: 0;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //AV portfolio section
     }
+    //AV bring section
+    .mediabox-bring-list {
+        position: relative;
+        min-height: 600px;
+        li {
+            display: inline-block;
+            position: absolute;
+            &:nth-child(1) {
+                left: -30px;
+                top: 0;
+            }
+            &:nth-child(2) {
+                left: 18.2%;
+                top: 80px;
+                .features-elem {
+                    &__text {
+                        &-normal {
+                            max-width: 70%;
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+            &:nth-child(3) {
+                left: 60%;
+                top: 0;
+                .features-elem {
+                    &__text {
+                        &-normal {
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+            &:nth-child(4) {
+                left: 14.8%;
+                top: 280px;
+                .features-elem {
+                    &__text {
+                        &-normal {
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+            &:nth-child(5) {
+                left: 42%;
+                top: 380px;
+                .features-elem {
+                    &__text {
+                        &-normal {
+                            max-width: 55%;
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+            &:nth-child(6) {
+                left: 76.4%;
+                top: 220px;
+                .features-elem {
+                    width: 280px;
+                    margin: auto;
+                }
+            }
+        }
+        .features-elem {
+            background: transparent;
+            border-radius: 0;
+            text-align: center;
+            &__image {
+                img {
+                    display: block;
+                    margin: auto;
+                }
+            }
+            &__text {
+                margin-top: 15px;
+                &-weight {
+                    display: block;
+                    font-size: 16px;
+                    color: rgb(255, 255, 255);
+                    font-family: "Open Sans Bold", sans-serif;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    line-height: 1.429;
+                }
+                &-normal {
+                    display: block;
+                    font-size: 14px;
+                    color: rgb(255, 255, 255);
+                    font-family: "Open Sans Regular", sans-serif;
+                    line-height: 1.429;
+                }
+            }
+        }
+    }
+    //AV bring section
+
+    //AV listen section
+    .mediabox-listen-list {
+        position: relative;
+        min-height: 600px;
+        li {
+            display: inline-block;
+            position: absolute;
+            &:nth-child(1) {
+                left: 26%;
+                top: 0;
+                .features-elem {
+                    &__text {
+                        max-width: 280px;
+                    }
+                }
+            }
+            &:nth-child(2) {
+                left: 65%;
+                top: 100px;
+            }
+            &:nth-child(3) {
+                left: -40px;
+                top: 150px;
+                max-width: 225px;
+            }
+            &:nth-child(4) {
+                left: 12.5%;
+                top: 450px;
+            }
+            &:nth-child(5) {
+                left: 39.5%;
+                top: 300px;
+                .features-elem {
+                    span {
+                        display: block;
+                    }
+                    &__text {
+                        &-normal {
+                            max-width: 70%;
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+            &:nth-child(6) {
+                left: 78%;
+                top: 450px;
+                width: 250px;
+                .features-elem {
+                    span {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .features-elem {
+            background: transparent;
+            border-radius: 0;
+            text-align: center;
+            &__image {
+                img {
+                    display: block;
+                    margin: auto;
+                }
+            }
+            &__text {
+                margin-top: 15px;
+                &-normal {
+                    font-size: 14px;
+                    color: rgb(255, 255, 255);
+                    font-family: "Open Sans Regular", sans-serif;
+                    line-height: 1.429;
+                }
+                &-weight {
+                    font-size: 16px;
+                    color: rgb(255, 255, 255);
+                    font-family: "Open Sans Bold", sans-serif;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    line-height: 1.429;
+                }
+            }
+        }
+    }
+    //AV listen section
 
     .mediabox-video {
         max-width: 892px;
