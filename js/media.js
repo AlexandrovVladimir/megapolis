@@ -4,7 +4,6 @@
 function analizerAudio(){
     if(!jQuery('#main-audio').hasClass('started')){
         jQuery('#main-audio').addClass('started');
-
         var AudioContext = window.AudioContext || window.webkitAudioContext || false;
 
         if(AudioContext){
@@ -239,9 +238,9 @@ function mainPlayer(){
             playAudio(soundSource, elemId);
             player.pauseVideo();
         }
+
     });
 }
-
 
 
 /*start audio into news page*/
@@ -261,6 +260,7 @@ function newsAudioStart(){
         }else{
             jQuery(this).parent().addClass('played');
             playAudio(soundSource, elemId, audioType);
+
         }
     });
 }
@@ -359,6 +359,8 @@ function newsAutoStart(){
 function portfolioPlay(){
     jQuery('#portfolio .media-elem-button').on('click', function(e){
         e.preventDefault();
+
+        $(this).prev().toggleClass('active');
 
         var soundSource = jQuery(this).parent().attr('data-source'),
             audioType = jQuery(this).parent().attr('data-type'),

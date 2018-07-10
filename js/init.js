@@ -9,11 +9,6 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var player;
 
-if(document.getElementById('yPLayer')){
-    var yPlayerId = document.getElementById('yPLayer').getAttribute('data-video-id');
-}else{
-    var yPlayerId = 'jna2r56EXTg';
-}
 
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('yPLayer', {
@@ -25,6 +20,18 @@ function onYouTubeIframeAPIReady() {
             'onStateChange': onPlayerStateChange
         }
     });
+
+    if(document.getElementById('yPLayer')){
+        var yPlayerId = document.getElementById('yPLayer').getAttribute('data-video-id');
+    }else{
+        var yPlayerId = 'jna2r56EXTg';
+
+        player = {};
+
+        player.pauseVideo = function() {
+            console.log('video not available');
+        };
+    }
 }
 
 function onPlayerReady(event) {
@@ -82,6 +89,7 @@ jQuery(window).on('load', function(){
 
 /*start functions after document started*/
 jQuery(document).ready(function(){
+    console.log(player, 'boo');
     preloadAnim();
     menuOpener();
     menuScroll();

@@ -348,11 +348,11 @@ img {
     }
 
     &-cover {
-        @include background-size(cover);
-
-        background-position: center;
-        background-repeat: no-repeat;
-        background-color: $colors_grey_6;
+        //@include background-size(cover);
+        //
+        //background-position: center;
+        //background-repeat: no-repeat;
+        //background-color: $colors_grey_6;
         border-radius: 50%;
         margin-right: auto;
         margin-left: auto;
@@ -589,8 +589,8 @@ img {
         padding-top: 15px;
         font-family: $bold;
         text-align: center;
-        font-size: 15px;
-        width: 150px;
+        font-size: 18px;
+        width: 180px;
         color: $colors_violet_1;
     }
 

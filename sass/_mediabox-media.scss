@@ -1,5 +1,10 @@
 /*media queries: min-width: 1200px*/
 @include media-breakpoint-up(xl) {
+    .container {
+      max-width: 1070px;
+      margin-left: auto;
+      margin-right: auto;
+    }
     .features-elem-text {
         font-size: 14px !important;
         font-family: "Open Sans Regular", sans-serif !important;
@@ -18,6 +23,85 @@
         .features-elem-icon {
             margin: auto;
         }
+    }
+    .media-elem {
+        &:nth-child(1) {
+            .media-elem-cover {
+                &:after {
+                  background: #5d528e url("../images/19.png") no-repeat center;
+                }
+            }
+            .media-elem-cover.active {
+                &:after {
+                    background-image: none;
+                }
+            }
+        }
+        &:nth-child(2) {
+            .media-elem-cover {
+                &:after {
+                  background: #5d528e url("../images/22.png") no-repeat center;
+                }
+            }
+            .media-elem-cover.active {
+                &:after {
+                    background-image: none;
+                }
+            }
+        }
+        &:nth-child(3) {
+            .media-elem-cover {
+                &:after {
+                  background: #5d528e url("../images/20.png") no-repeat center;
+                }
+            }
+            .media-elem-cover.active {
+                &:after {
+                    background-image: none;
+                }
+            }
+        }
+        &:nth-child(4) {
+            .media-elem-cover {
+                &:after {
+                  background: #5d528e url("../images/23.png") no-repeat center;
+                }
+            }
+            .media-elem-cover.active {
+                &:after {
+                    background-image: none;
+                }
+            }
+        }
+        &:nth-child(5) {
+            .media-elem-cover {
+                &:after {
+                  background: #5d528e url("../images/21.png") no-repeat center;
+                }
+            }
+            .media-elem-cover.active {
+                &:after {
+                    background-image: none;
+                }
+            }
+        }
+        &:nth-child(6) {
+            .media-elem-cover {
+                &:after {
+                  background: #5d528e url("../images/24.png") no-repeat center;
+                }
+            }
+            .media-elem-cover.active {
+                &:after {
+                    background-image: none;
+                }
+            }
+        }
+
+
+    }
+    .media-elem-button {
+        background: #796cb1 !important;
     }
     .features-elem-icon {
         //background: #ffffff;
@@ -886,7 +970,7 @@
                     }
                 }
                 &:nth-child(1) {
-                    left: -58px;
+                    left: -54px;
                     top: 0;
                     .features-elem {
                         &__text {
@@ -903,7 +987,7 @@
                     }
                 }
                 &:nth-child(2) {
-                    left: 18.3%;
+                    left: 19%;
                     top: 10%;
                     .features-elem {
                         &__text {
@@ -937,7 +1021,7 @@
                     }
                 }
                 &:nth-child(4) {
-                    left: 3.7%;
+                    left: 4.5%;
                     top: 45%;
                     .features-elem {
                         &__text {
@@ -954,7 +1038,7 @@
                     }
                 }
                 &:nth-child(5) {
-                    left: 39%;
+                    left: 39.3%;
                     top: 60%;
                     .features-elem {
                         &__text {
@@ -971,7 +1055,7 @@
                     }
                 }
                 &:nth-child(6) {
-                    left: 83%;
+                    left: 83.3%;
                     top: 45%;
                     width: 165px;
                     .features-elem {
@@ -1004,7 +1088,7 @@
                 top: 0;
             }
             &:nth-child(2) {
-                left: 18.2%;
+                left: 19%;
                 top: 80px;
                 .features-elem {
                     &__text {
@@ -1016,8 +1100,8 @@
                 }
             }
             &:nth-child(3) {
-                left: 60%;
-                top: 0;
+                left: 60.3%;
+                top: -50px;
                 .features-elem {
                     &__text {
                         &-normal {
@@ -1027,7 +1111,7 @@
                 }
             }
             &:nth-child(4) {
-                left: 14.8%;
+                left: 15.5%;
                 top: 280px;
                 .features-elem {
                     &__text {
@@ -1050,7 +1134,7 @@
                 }
             }
             &:nth-child(6) {
-                left: 76.4%;
+                left: 77%;
                 top: 220px;
                 .features-elem {
                     width: 280px;

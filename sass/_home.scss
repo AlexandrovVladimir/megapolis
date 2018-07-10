@@ -63,6 +63,7 @@
 
     &__portfolio {
         .home-block-slider {
+            padding-top: 100px;
             &-slides {
                 .home-slide {
                     padding-bottom: 15px;
@@ -196,6 +197,12 @@
     &-head {
         margin-bottom: 15px;
         text-align: center;
+        font-size: 24px;
+        font-family: "Open Sans Bold", sans-serif;
+        color: rgb(93, 82, 142);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1;
     }
 
     &-list {
@@ -793,7 +800,6 @@
     
     &-cover {
         @include background-size(cover);
-
         background-position: center;
         background-repeat: no-repeat;
         background-color: $colors_white;
@@ -1037,13 +1043,21 @@
 
         .block-with-lines-cont {
             padding-bottom: 60px;
-            padding-top: 120px;
+            //padding-top: 120px;
+            padding-top: 60px;
         }
 
         &.small {
             .block-with-lines-cont {
                 padding-bottom: 20px;
-                padding-top: 80px;
+                //padding-top: 80px;
+                padding-top: 60px;
+                font-size: 24px;
+                font-family: "Open Sans Bold", sans-serif;
+                color: rgb(93, 82, 142);
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1;
             }
 
             .home-block-content {
@@ -1121,7 +1135,8 @@
                 }
 
                 &:nth-child(2) {
-                    top: 66.55%;
+                    //top: 66.55%;
+                    top: 61%;
                 }
 
                 &:nth-child(3) {
@@ -1129,15 +1144,16 @@
                 }
 
                 &:nth-child(4) {
-                    top: 59.44%;
+                    //top: 59.44%;
+                    top: 80%;
                 }
 
                 &:nth-child(5) {
-                    top: 18.33%;
+                    top: 14.33%;
                 }
 
                 &:nth-child(6) {
-                    top: 63.55%;
+                    top: 61%;
                 }
             }
 
@@ -1354,27 +1370,32 @@
                 position: absolute;
 
                 &:nth-child(1) {
-                    left: 14.29%;
+                    left: 13%;
                 }
 
                 &:nth-child(2) {
-                    left: 28.58%;
+                    //left: 28.58%;
+                    left: 34.4%;
                 }
 
                 &:nth-child(3) {
-                    left: 42.87%;
+                    //left: 42.87%;
+                    left: 48.65%;
                 }
 
                 &:nth-child(4) {
-                    left: 57.16%;
+                    //left: 57.16%;
+                    left: 63%;
                 }
 
                 &:nth-child(5) {
-                    left: 71.45%;
+                    //left: 71.45%;
+                    left: 77.35%;
                 }
 
                 &:nth-child(6) {
-                    left: 85.74%;
+                    //left: 85.74%;
+                    left: 91.5%;
                 }
             }
         }
