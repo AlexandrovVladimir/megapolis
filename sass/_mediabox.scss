@@ -509,7 +509,7 @@
     &-circle {
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url(../images/features-block-circle-mobile.png);
+        //background-image: url(../images/features-block-circle-mobile.png);
         background-size: 100% 100%;
         margin-right: auto;
         margin-left: auto;
@@ -806,7 +806,7 @@
 
     &.active {
         .features-elem-icon {
-            box-shadow: 0 0 15px #242133;
+            box-shadow: 0 0 25px #242133;
 
             &:after {
                 @include opacity(1);

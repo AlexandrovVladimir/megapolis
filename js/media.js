@@ -164,6 +164,7 @@ function playAudio(src, id, type){
     var audioCont = document.getElementById('main-audio'),
         elemId = jQuery('.main-header-player').attr('data-played');
 
+
     if(elemId != id){
         jQuery('#radio .home-radio-list-elem').removeClass('played');
         jQuery('.media-elem').removeClass('played');
@@ -233,10 +234,15 @@ function mainPlayer(){
             elemId = jQuery('.main-header-player').attr('data-played');
 
         if(jQuery(this).parent().hasClass('played')){
+            $('.media-elem-cover.active').removeClass('active');
             stopAudio();
+            // console.log(1);
         }else if(jQuery(this).parent().hasClass('stoped')){
             playAudio(soundSource, elemId);
+            //background player
+            $('.media-elem.played').find('.media-elem-cover').addClass('active');
             player.pauseVideo();
+            // console.log(2);
         }
 
     });
@@ -360,6 +366,7 @@ function portfolioPlay(){
     jQuery('#portfolio .media-elem-button').on('click', function(e){
         e.preventDefault();
 
+        //background player
         $(this).prev().toggleClass('active');
 
         var soundSource = jQuery(this).parent().attr('data-source'),

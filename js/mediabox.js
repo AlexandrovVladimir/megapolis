@@ -103,7 +103,7 @@ function changeFeatures(){
         count = 0;
 
     function setText(){
-        if(count == 10){
+        if(count == 5){
             count = 0;
         }
 

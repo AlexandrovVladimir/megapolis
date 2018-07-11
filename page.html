@@ -290,7 +290,7 @@
                                 <ul class="mediabox-portfolio-list">
                                     <li>
                                         <div class="mediabox-anim-elem">
-                                            <div class="features-elem">
+                                            <div class="features-elem2">
                                                 <div class="features-elem-icon main-icon main-icon__features-auditory"></div>
                                                 <div class="features-elem__text">
                                                     <span class="features-elem__text-weight">Внутреннее радио</span>
@@ -301,7 +301,7 @@
                                     </li>
                                     <li>
                                         <div class="mediabox-anim-elem">
-                                            <div class="features-elem">
+                                            <div class="features-elem2">
                                                 <div class="features-elem-icon main-icon main-icon__features-auditory"></div>
                                                 <div class="features-elem__text">
                                                     <span class="features-elem__text-weight">Новый способ</span>
@@ -312,7 +312,7 @@
                                     </li>
                                     <li>
                                         <div class="mediabox-anim-elem">
-                                            <div class="features-elem">
+                                            <div class="features-elem2">
                                                 <div class="features-elem-icon main-icon main-icon__features-auditory"></div>
                                                 <div class="features-elem__text">
                                                     <span class="features-elem__text-weight">Доверительный формат</span>
@@ -323,7 +323,7 @@
                                     </li>
                                     <li>
                                         <div class="mediabox-anim-elem">
-                                            <div class="features-elem">
+                                            <div class="features-elem2">
                                                 <div class="features-elem-icon main-icon main-icon__features-auditory"></div>
                                                 <div class="features-elem__text">
                                                     <span class="features-elem__text-weight">Современный и оперативный</span>
@@ -334,7 +334,7 @@
                                     </li>
                                     <li>
                                         <div class="mediabox-anim-elem">
-                                            <div class="features-elem">
+                                            <div class="features-elem2">
                                                 <div class="features-elem-icon main-icon main-icon__features-auditory"></div>
                                                 <div class="features-elem__text">
                                                     <span class="features-elem__text-weight">Программная политика</span>
@@ -345,7 +345,7 @@
                                     </li>
                                     <li>
                                         <div class="mediabox-anim-elem">
-                                            <div class="features-elem">
+                                            <div class="features-elem2">
                                                 <div class="features-elem-icon main-icon main-icon__features-auditory"></div>
                                                 <div class="features-elem__text">
                                                     <span class="features-elem__text-weight">Ротация информации</span>
@@ -515,7 +515,7 @@
                             <div class="block-with-lines-cont">
                                 <!-- mediabox-portfolio-list -->
                                 <div class="mediabox-block__bring-title">
-                                    что принесет компании безопасное радио
+                                    Что принесет компании Безопасное Радио
                                 </div>
                                 <ul class="mediabox-bring-list">
                                     <li>
@@ -1192,15 +1192,15 @@
                         <!-- end of block-with-lines -->
 
                         <!-- home-block-video -->
-                        <div class="home-block-video">
-                            <iframe class="home-block-video-iframe"
-                                    id="yPLayer"
-                                    height="315"
-                                    width="420"
-                                    src="https://www.youtube.com/embed/jna2r56EXTg?version=3&enablejsapi=1&rel=0"
-                                    frameborder="0"
-                                    allowfullscreen></iframe>
-                        </div>
+                        <!--<div class="home-block-video">-->
+                            <!--<iframe class="home-block-video-iframe"-->
+                                    <!--id="yPLayer"-->
+                                    <!--height="315"-->
+                                    <!--width="420"-->
+                                    <!--src="https://www.youtube.com/embed/jna2r56EXTg?version=3&enablejsapi=1&rel=0"-->
+                                    <!--frameborder="0"-->
+                                    <!--allowfullscreen></iframe>-->
+                        <!--</div>-->
                         <!-- end of home-block-video -->
 
                         <!-- home-block-substrate -->
@@ -1219,7 +1219,7 @@
                             <div class="block-with-lines-cont">
                                 <!-- mediabox-portfolio-list -->
                                 <div class="mediabox-block__listen-title">
-                                    как слушать безопасное радио
+                                    Как слушать Безопасное Радио
                                 </div>
                                 <ul class="mediabox-listen-list">
                                     <li>
@@ -1375,10 +1375,15 @@
                                             <input type="submit" class="main-submit main-button" value="ОТПРАВИТЬ">
                                         </div>
 
-                                        <input type="checkbox" id="right_input">
-                                        <label for="right_input" class="right-checkbox mediabox-anim-elem">
-                                            <div class="right-checkbox-button main-icon main-icon__ok"></div>
-                                            <div class="right-checkbox-text">Я даю согласие на обработку персональных данных</div>
+                                        <!--<input type="checkbox" id="right_input">-->
+                                        <!--<label for="right_input" class="right-checkbox mediabox-anim-elem">-->
+                                            <!--<div class="right-checkbox-button main-icon main-icon__ok"></div>-->
+                                            <!--<div class="right-checkbox-text">Я даю согласие на обработку персональных данных</div>-->
+                                        <!--</label>-->
+                                        <input style="display: none;" type="checkbox" name="form_checkbox_RULES[]" value="5" id="RULES_5" onchange="$('#RULES_5_fict').toggleClass('main-icon__ok')">
+                                        <label for="RULES_5" class="right-checkbox">
+                                            <div class="right-checkbox-button main-icon main-icon__ok" id="RULES_5_fict"></div>
+                                            <div class="right-checkbox-text">Я даю согласие на обработку персональных данных.</div>
                                         </label>
                                     </form>
                                 </div>
@@ -1500,7 +1505,7 @@
                     <div class="main-footer-copyright">
                         <div class="container">
                             <span>Все права защищены</span>
-                            <span>© 2009-2017</span>
+                            <span>© 2009-2018</span>
                         </div>
                     </div>
                     <!-- end of main footer copyright -->
