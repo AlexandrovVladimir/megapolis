@@ -89,7 +89,7 @@ jQuery(window).on('load', function(){
 
 /*start functions after document started*/
 jQuery(document).ready(function(){
-    console.log(player, 'boo');
+    // console.log(player, 'boo');
     preloadAnim();
     menuOpener();
     menuScroll();
